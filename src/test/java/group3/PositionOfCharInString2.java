@@ -1,5 +1,6 @@
 package group3;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 
@@ -9,8 +10,8 @@ public class PositionOfCharInString2 {
 		String s ="Tester";
 		s=s.toLowerCase();
 		
-LinkedHashSet<Character> set = new LinkedHashSet<Character>();
-		
+//LinkedHashSet<Character> set = new LinkedHashSet<Character>();
+ArrayList<Character> set = new ArrayList<Character>();	
 		for(int i=0; i<s.length(); i++)
 		{
 			set.add(s.charAt(i));
@@ -18,7 +19,7 @@ LinkedHashSet<Character> set = new LinkedHashSet<Character>();
 		
 		for (Character ch : set) 
 		{
-			int count=0;
+			
 			
 			
 			for (int i = 0; i < s.length(); i++) {

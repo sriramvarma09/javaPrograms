@@ -4,7 +4,7 @@ package group1;
 import java.util.LinkedHashSet;
 
 
-public class PrintOnlyUniqueCharOfString
+public class PrintOnlyUniqueCharOfString2 
 {
 
 	public static void main(String[] args) 

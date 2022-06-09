@@ -12,7 +12,7 @@ public class PrintSumOfDigitInString
 			
 			if(s.charAt(i)>='0' && s.charAt(i)<='9')
             {
-				int n =s.charAt(i)-48;
+				int n =s.charAt(i)-48;//0-9 48-57
 				sum=sum+n;
 			}
 

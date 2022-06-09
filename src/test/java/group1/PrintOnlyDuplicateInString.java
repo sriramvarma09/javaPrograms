@@ -1,6 +1,10 @@
 package group1;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.LinkedList;
+import java.util.TreeSet;
 
 public class PrintOnlyDuplicateInString {
 
@@ -8,8 +12,12 @@ public class PrintOnlyDuplicateInString {
 		
       String s ="KALPANA";
       
-		
-		HashSet<Character> set = new HashSet<Character>();
+    //LinkedList<Character> set= new LinkedList<Character>();
+    		LinkedHashSet<Character> set = new LinkedHashSet<Character>();
+    		//ArrayList<Character> set = new ArrayList<Character>();
+    		//HashSet<Character> set = new HashSet<Character>();
+    		//TreeSet<Character> set = new TreeSet<Character>();
+		//HashSet<Character> set = new HashSet<Character>();
 		
 		for(int i=0; i<s.length(); i++)
 		{
